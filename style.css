@@ -1,0 +1,96 @@
+.phoneborder {
+  border: 5px solid dimgray;
+  border-radius: 20px;
+  width: 250px;
+  height: 500px;
+  translate: 45px 50px;
+}
+
+.frontcamera {
+  border: 1px solid dimgray;
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 50px;
+  translate: 120px -959px;
+}
+
+.frontdynamic {
+  border: 3px solid dimgray;
+  width: 50px;
+  border-radius: 50px;
+  translate: 150px -970px;
+}
+
+.zatvor {
+  border: 3px solid dimgray;
+  width: 70px;
+  border-radius: 50px;
+  transform: rotate(90deg);
+  translate: 267px -360px;
+}
+
+.power {
+  border: 3px solid dimgray;
+  width: 40px;
+  border-radius: 50px;
+  transform: rotate(90deg);
+  translate: 282px -290px;
+}
+
+iframe {
+  translate: 50px -467px;
+  width: 250px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: darkcyan;
+}
+
+button {
+  translate: 0px 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 1px;
+  transition: 0.3s ease-in-out;
+  background-color: deepskyblue;
+  border: 0px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px deepskyblue;
+  font-family: Pixel_NES;
+}
+
+button:hover {
+  width: 150px;
+  height: 70px;
+  translate: 70px 50px;
+  background-color: lime;
+  border: 0px;
+  box-shadow: 0px 0px 20px lime;
+  font-size: 15px;
+}
+
+.border1 {
+  border: 1px solid black;
+}
+
+audio {
+  width: 100px;
+  transition: 0.3s ease-out;
+  opacity: 50%;
+  border-radius: 50px;
+  translate: 0px 50px;
+}
+
+audio:hover {
+  width: 200px;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 50px;
+  opacity: 100%;
+}
+
+@font-face {
+  font-family: 'Pixel_NES';
+  src: local('Pixel_NES'),
+  url('/fonts/Pixel_NES.otf') format('truetype');
+}
