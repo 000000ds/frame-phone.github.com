@@ -1,2 +1,2 @@
-# frame-phone.github.com
-Use the frame-phone of being whenever and wherever you want
+# frame-phone.github.io
+Використовуйте фрейм-телефон, щоб бути коли завгодно і де завгод
